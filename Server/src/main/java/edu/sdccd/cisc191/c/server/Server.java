@@ -1,4 +1,7 @@
-package edu.sdccd.cisc191.c;
+package edu.sdccd.cisc191.c.server;
+
+import edu.sdccd.cisc191.c.CustomerRequest;
+import edu.sdccd.cisc191.c.CustomerResponse;
 
 import java.net.*;
 import java.io.*;
@@ -51,8 +54,6 @@ import java.io.*;
 //    }
 //} //end class Server
 
-import java.io.*;
-import java.net.*;
 import java.util.*;
 
 public class Server {
@@ -178,6 +179,8 @@ public class Server {
         }
     }
 }
+
+// Run Server main first, then run Client to connect
 
 // Build and verify Server-1.0.0.jar  using terminal :
 // /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/java -Dmaven.multiModuleProjectDirectory=/Users/cw/Documents/GitHub/CISC191-FinalProjectTemplate -Djansi.passthrough=true -Dmaven.home=/Users/cw/Applications/IntelliJ\ IDEA\ Ultimate.app/Contents/plugins/maven/lib/maven3 -Dclassworlds.conf=/Users/cw/Applications/IntelliJ\ IDEA\ Ultimate.app/Contents/plugins/maven/lib/maven3/bin/m2.conf -Dmaven.ext.class.path=/Users/cw/Applications/IntelliJ\ IDEA\ Ultimate.app/Contents/plugins/maven/lib/maven-event-listener.jar -javaagent:/Users/cw/Applications/IntelliJ\ IDEA\ Ultimate.app/Contents/lib/idea_rt.jar=54206:/Users/cw/Applications/IntelliJ\ IDEA\ Ultimate.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/cw/Applications/IntelliJ\ IDEA\ Ultimate.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Users/cw/Applications/IntelliJ\ IDEA\ Ultimate.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.7.0.jar org.codehaus.classworlds.Launcher -Didea.version=2024.1.4 install

@@ -1,4 +1,7 @@
-package edu.sdccd.cisc191.c;
+package edu.sdccd.cisc191.c.client;
+
+import edu.sdccd.cisc191.c.CustomerRequest;
+import edu.sdccd.cisc191.c.CustomerResponse;
 
 import java.net.*;
 import java.io.*;
@@ -49,8 +52,6 @@ import java.io.*;
 //    }
 //}//end class Client
 
-import java.io.*;
-import java.net.*;
 import java.util.*;
 
 public class Client {
